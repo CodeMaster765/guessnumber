@@ -1,0 +1,35 @@
+
+
+    <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0 Method**: Moved to JavaScript and now takes care of showing the message.
+3. **CSS**: Add styles to hide the message initially.
+4. **JavaScript**: Update the JavaScript to show the message when needed.
+
+Here's the complete code:
+
+#### HTML (`index.html`)
+
+
+<html lang="en">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Number Guessing Game</title>
+    <link 
+    rel="stylesheet" href="AImobile.css">
+</head>
+<body>
+    <div class="game-container">
+        <h1>Guess the Number</h1>
+        <p>Enter a number between 1 and 100:</p>
+        <input type="number" min="1" max="100">
+        <button>Check</button>
+        <input type="reset" value="reply" name="reply">
+        <p class="guess" id="guess-message"></p>
+        <p class="chance">Chances left: <span class="chance-count">10</span></p>
+    </div>
+    <script src="./aimobile.js"></script>
+</body>
+</html>
